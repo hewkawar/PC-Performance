@@ -1,0 +1,9 @@
+{
+    "server": {
+        "name": "Vanilla"
+    },
+    "api": {
+        "needAuth": false,
+        "key": "YOUR_API_KEY"
+    }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "pc-performance",
+  "version": "1.0.0",
+  "description": "Computer Performance Status API",
+  "main": "server.js",
+  "scripts": {
+    "server": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hewkawar/PC-Performance.git"
+  },
+  "keywords": [
+    "pc-performance"
+  ],
+  "author": "HewkawAr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hewkawar/PC-Performance/issues"
+  },
+  "homepage": "https://github.com/hewkawar/PC-Performance#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "systeminformation": "^5.23.5"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "nodemon": "^3.1.7"
+  }
+}
